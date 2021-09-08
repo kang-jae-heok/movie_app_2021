@@ -6,7 +6,9 @@
 - 컴포넌트 추가 : import App from './App'; 추가해주기
 - jsx : 자바스크립트와 HTML 문법을 조합한것
 - 컴포넌트는 무조권 대문자로 시작
- ex)function Potato(){
+<br>
+ ex)
+ function Potato(){
   return(
       <h3>I love potato</h3>
   );
