@@ -10,7 +10,7 @@
  ex)
  function Potato(){
   return(
-    <h3>I love potato</h3>
+    I love potato
   );
 }
 - 다른 곳에서 쓸려면 export default Potato; 이렇게 하면 됨 
