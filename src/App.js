@@ -16,4 +16,4 @@ function Potato(){
 }
 
 export default App;
-export default Potato;
+
