@@ -15,12 +15,16 @@
 - 컴포넌트 추가 : import App from './App'; 추가해주기
 - jsx : 자바스크립트와 HTML 문법을 조합한것
 - 컴포넌트는 무조권 대문자로 시작
-<br>
+- 다른 곳에서 쓸려면 export default Potato; 이렇게 하면 됨 
+- index.js 에서는 하나의 컴포넌트만 가능
+<code>
  ex)
  function Potato(){
   return(
-    <h3>I love potato</h3>
+    I love potato
   );
 }
-- 다른 곳에서 쓸려면 export default Potato; 이렇게 하면 됨 
-- index.js 에서는 하나의 컴포넌트만 가능
+</code>
+<br>
+
+
