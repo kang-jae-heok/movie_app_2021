@@ -1,5 +1,35 @@
 # 강재혁 201840102
-[ 09월 09일 ]
+[ 09월 29일]
+학습내용
+### main 브랜치로 바꾸기
+- master 브랜치에서 main 브랜치로 바뀜
+- git branch -m master main 
+### 깃 클론따는법
+- git hub 들어가서 코드를 누르고 주소 따오기
+- git clon "주소"
+- yarn or npm 해주기(필요한 모듈들 다운)
+
+### key props warning 이 뜨는이유 
+- 고유의 값이 없기떄문 id값 추가하면 없어짐
+
+### proptypes
+- npm install prop-type
+### state
+- props 는 정적인 데이터만 다룰 수 있지만 state 는 동적인것을 다룰수 있다
+- state ={ key: value}
+- state를 변경할때는 직접적으로 변경하지말고 setState()함수를 사용한다
+- state를 직접 변경하면 render함수가 재실행이 됨으로 setState() 이용
+
+### render 함수
+- App.js 는 jsx를 반환하지만 return을 쓸 수 없어 rende함수에서 return을 해준다
+
+
+
+
+
+
+
+[ 09월 15일 ]
 학습내용
 - export를 해줘야 외부에서 사용가능
 - props : 임의의 입력을 받은 후, 화면에 어떻게 표시되는지를 기술하는 React 엘리먼트를 반환
