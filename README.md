@@ -1,4 +1,18 @@
 # 강재혁 201840102
+[10월 06일]
+###### constructor 
+- 생성자 함수 제일 먼저 실행됨 
+- state 값을 초기화 하거나 메서드를 바인딩 할떄 사용
+- super(props)를 선언을 권고함  * super 는 부모클래스 생성자의 참조
+- 생성자 내에서는 setState 사용안함 this.state를 사용
+- 외부 api를 직접 호출 x componentDidMount()를 사용
+
+###### axios
+- 사용 법 npm i axios , import axios from "axios"
+- api 호출
+###### aysnc await
+- aysnc await 비동기 처리 
+- callback 함수 단점 보완
 [ 09월 29일]
 학습내용
 ### main 브랜치로 바꾸기
@@ -21,7 +35,7 @@
 - state를 직접 변경하면 render함수가 재실행이 됨으로 setState() 이용
 
 ### render 함수
-- App.js 는 jsx를 반환하지만 return을 쓸 수 없어 rende함수에서 return을 해준다
+- App.js 는 jsx를 반환하지만 return을 쓸 수 없어 render함수에서 return을 해준다
 
 
 
