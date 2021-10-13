@@ -13,7 +13,7 @@
 ###### aysnc await
 - aysnc await 비동기 처리 
 - callback 함수 단점 보완
-[ 09월 29일]
+[ 09월 22일]
 학습내용
 ### main 브랜치로 바꾸기
 - master 브랜치에서 main 브랜치로 바뀜
