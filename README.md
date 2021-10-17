@@ -1,4 +1,12 @@
 # 강재혁 201840102
+[10월 13일]
+- Movie 컴포넌트 만들기
+- Movie.propTypes 작성
+- axios.get() 수정하기
+- App 컴포넌트에서  Movie 컴포넌트 그리기
+- map()함수에 컴포넌트를 반환하는 함수 전달
+- Movie컴포넌트에 props 전달하기
+- ※ HTML의 class와 자바스크립트의 class라는 이름이 겹치면 리액트가 혼란스러울 수 있다
 [10월 06일]
 ###### constructor 
 - 생성자 함수 제일 먼저 실행됨 
