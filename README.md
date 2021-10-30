@@ -1,4 +1,14 @@
 # 강재혁 201840102
+[10월 26일]
+###### react-router-dom
+- 설치하기 npm instal react-router-dom
+- BrowserRouter - history API를 사용해 URL과 UI를 동기화하는 라우터입니다.
+- Route - 컴포넌트의 속성에 설정된 URL과 현재 경로가 일치하면 해당하는 컴포넌트, 함수를 렌더링한다.
+- Link - 'a'태그와 비슷합니다. to속성에 설정된 링크로 이동합니다. 기록이 - history스택에 저장됩니다.
+- Switch - 자식 컴포넌트 Route또는 Redirect중 매치되는 첫 번째 요소를 
+렌더링합니다.  Switch를 사용하면 BrowserRouter만 사용할 때와 다르게 하나의 매칭되는 요소만 렌더링한다는 점을 보장해줍니다.
+사용하지 않을 경우 매칭되는 모두를 렌더링합니다.
+
 [10월 13일]
 - Movie 컴포넌트 만들기
 - Movie.propTypes 작성
