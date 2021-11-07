@@ -1,4 +1,18 @@
 # 강재혁 201840102
+[11월 3일]
+###### 컴퓨터 설치오류
+- npm cache clean --force
+- npm rebuild
+- rm -rf node_modules
+- npm install
+###### pakage.json package-lock.json 의 차이
+- pakage.json은 의존성 파일
+###### 오류가 난 이유
+- • npm install 을 진행하더라도 서로 다른 node_modules트리를 생성하는 경우가 발생한다.
+- • 이것은 npm의 버전이 다른 경우, npm 알고리즘의 차이가 나기 때문이다.
+- • 그래서 팀원 간의 문제가 발행하면 npm버전부터 확인한다.
+ - • 그리고 package-lock.json파일이 있으면 npm install명령은 package.json을 사용하지 않고
+package-lock.json 을 사용하여 node-modules 를 생성한다
 [10월 26일]
 ###### react-router-dom
 - 설치하기 npm instal react-router-dom
